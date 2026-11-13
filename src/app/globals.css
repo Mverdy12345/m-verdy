@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0e1a;
+  --card: #141b2e;
+}
+
+body {
+  background:
+    radial-gradient(1100px 500px at 85% -10%, rgba(167, 139, 250, 0.13), transparent),
+    radial-gradient(900px 450px at 10% 0%, rgba(34, 211, 238, 0.11), transparent),
+    var(--bg);
+  color: #e7ecf7;
+  min-height: 100vh;
+}
+
+.grad-text {
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grad-btn {
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+  color: #081018;
+}
+
+.grad-btn:hover {
+  opacity: 0.92;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+pre.code {
+  direction: ltr;
+  text-align: left;
+  background: #0d1322;
+  border: 1px solid #253052;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 12px;
+  overflow-x: auto;
+  white-space: pre;
+}

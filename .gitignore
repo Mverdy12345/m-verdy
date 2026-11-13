@@ -1,0 +1,19 @@
+# اعتماديات وبناء
+node_modules/
+.next/
+out/
+dist/
+
+# أسرار — لا تُرفع إطلاقًا
+.env
+.env.*
+!.env.example
+
+# أدوات وسجلات
+.vercel
+*.log
+.DS_Store
+Thumbs.db
+
+# ملفات الاختبار المؤقتة
+/tmp/
